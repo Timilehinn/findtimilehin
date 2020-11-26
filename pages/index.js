@@ -14,7 +14,7 @@ export default function Home() {
       <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"/>
      </Head>
       <Navbar />
-     <h1 style={{fontWeight:'bolder',textAlign:'center',fontSize:'2rem'}}>Need a Fullstack <br/>Web</h1>
+     <h1 style={{fontWeight:'bolder',textAlign:'center',fontSize:'2rem'}}>Need a Fullstack <br/>Web and App Developer?</h1>
      <h3>{_yg}</h3>
      <Link href="/about">
         <a style={{border:'3px solid grey',marginTop:'2rem',padding:'1rem'}}>Navigate to know more.</a>
