@@ -1,65 +1,26 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Navbar from './navbar'
+import Link from 'next/link'
 
 export default function Home() {
+  const _yg = "{ I'm your guy. }"
   return (
     <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
+     <Head>
+       <title>findtimilehin</title>
+       <link rel="preconnect" href="https://fonts.gstatic.com" />
+       <link rel="shortcut icon" href="/ft.png" />
+      <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"/>
+     </Head>
+      <Navbar />
+     <h1 style={{fontWeight:'bolder',textAlign:'center',fontSize:'2rem'}}>Need a Fullstack <br/>Web and App Developer?</h1>
+     <h3>{_yg}</h3>
+     <Link href="/about">
+        <a style={{border:'3px solid grey',marginTop:'2rem',padding:'1rem'}}>Navigate to know more.</a>
+     </Link>
+     <h2 style={{marginTop:'200px'}}>Blog is coming soon...</h2>
+     <p style={{textAlign:'center'}}>Hi there &#128075;, this blog will soon be filled, in the meantime, I will be posting on my <a style={{color:'blue'}} href="https://www.twitter.com/makiaveli96">twitter</a></p>
     </div>
   )
 }
