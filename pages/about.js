@@ -18,7 +18,7 @@ function About() {
             <div className={style.header_div}>
                 <h1 style={{textAlign:'center'}}>Who Am I.</h1>
                 <p style={{lineHeight:'30px',textAlign:'center'}}>I'm Makinde Timilehin, A fullstack Web and App Developer <br />
-                 with 5+ years of experience, Presently I'm Working part-time at my own<br/> web dev company,<a style={{color:'blue'}} href="https://pacavel.herokuapp.com"> Pacavel</a>, I love designing cool user interfaces <br/> and working on the backend of Applications. </p>
+                 with experience in Javascript, React/React Native ..., Presently I'm Working part-time at my own<br/> web dev company,<a style={{color:'blue'}} href="https://pacavel.herokuapp.com"> Pacavel</a>, I love designing cool user interfaces <br/> and working on the backend of Applications. </p>
                  <br/>
                  <br/>
                  <br/>
