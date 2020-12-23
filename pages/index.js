@@ -15,7 +15,7 @@ export default function Home() {
      </Head>
       <Navbar />
       <div style={{marginTop:'150px',display:'flex',flexDirection:'column', alignItems:'center'}}>
-        <h1 style={{fontWeight:'bolder',lineHeight:'60px',textAlign:'center',fontSize:'2rem'}}>Hi,<br/> I'm Timilehin <br/>a FullstackWeb and App Developer</h1>
+        <h1 style={{fontWeight:'bolder',lineHeight:'60px',textAlign:'center',fontSize:'2rem'}}>Hi,<br/> I'm Timilehin <br/>a Fullstack Web and App Developer</h1>
         <Link href="/about">
             <a style={{border:'3px solid grey',marginTop:'2rem',padding:'1rem'}}>Navigate to know more.</a>
         </Link>
