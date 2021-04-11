@@ -17,12 +17,12 @@ function About() {
            
             <div className={style.header_div}>
                 <h1 style={{textAlign:'center'}}>Who Am I.</h1>
-                <p style={{lineHeight:'30px',textAlign:'center'}}>I'm Makinde Timilehin, A fullstack Web and App Developer <br />
-                 with experience in Javascript, React/React Native ..., Presently I'm Working part-time at my own<br/> web dev company,<a style={{color:'blue'}} href="https://pacavel.herokuapp.com"> Pacavel</a>, I love designing cool user interfaces <br/> and working on the backend of Applications. </p>
+                <p style={{lineHeight:'30px',textAlign:'center'}}>I'm Makinde Timilehin, I'm a Backend Heavy Software Developer <br />
+                 with experience in Javascript, React/React Native, Nodejs and Databse Development. Presently I'm Working part-time at my own<br/> web dev company,<a style={{color:'blue'}} href="https://pacavel.herokuapp.com"> Pacavel</a>, I love designing cool user interfaces <br/> and working on the backend of Applications. </p>
                  <br/>
                  <br/>
                  <br/>
-                 <h3 style={{textAlign:'center'}}>What I can Do</h3>
+                 <h3 style={{textAlign:'center'}}>My Strengths.</h3>
                  {/* <div style={{width:}}> */}
                     <span style={{padding:'1rem',marginBottom:'.5rem',width:'250px',alignSelf:'center',textAlign:'center',border:'.5px solid lightgrey'}}>Web Development</span>
                     <span style={{padding:'1rem',marginBottom:'.5rem',width:'250px',alignSelf:'center',textAlign:'center',border:'.5px solid lightgrey'}}><FaAndroid color="#3ddc84"/> Android App Development</span>

@@ -13,7 +13,7 @@ function Projects() {
                 <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"/>
             </Head>
             <Navbar />
-            <h1 style={{textAlign:'center',marginTop:'100px'}}>Some of my Work.</h1>
+            <h1 style={{textAlign:'center',color:'white',marginTop:'100px'}}>Some of my Work.</h1>
             <br />
             <div className={style.img_div}>
                 <a style={{margin:'1rem'}} href="http://coinnex.co"><img src="/1.png" width="280px" height="500px" /></a>
