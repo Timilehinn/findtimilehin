@@ -59,7 +59,7 @@ export default class Navbar extends React.Component{
             <div style={{position:'fixed',zIndex:'100',top:'0'}}>
                 <div style={{width:'100vw',display:'flex',alignItems:'center',height:'60px',backgroundColor:'rgb(14, 13, 13)'}}>
                     <Link href="/">
-                      <p style={{cursor:'pointer',marginLeft:'3vw',color:'white',fontSize:'1.7rem', fontFamily: 'Pacifico'}}>findtimilehin</p>
+                      <p style={{cursor:'pointer',marginLeft:'3vw',color:'white',fontSize:'1.7rem', fontFamily: 'Pacifico'}}>findtimilehin.</p>
                     </Link>
                     {/* TOGGLER */}
                     <div onClick={this.toggle} style={{position:'absolute',right:'3vw'}}>

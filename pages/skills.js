@@ -26,9 +26,9 @@ function Skills() {
                 <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"/>
             </Head>
             <Navbar />
-            <h1 style={{fontWeight:'bolder',marginTop:'120px',fontSize:'2rem',textAlign:'center'}}>My Skills.</h1>
+            <h1 style={{fontWeight:'bolder',marginTop:'120px',color:'white',fontSize:'2rem',textAlign:'center'}}>My Skills.</h1>
 
-            <div style={{marginTop:'50px',display:'flex',justifyContent:"center"}}>
+            <div style={{marginTop:'50px',color:'white',display:'flex',justifyContent:"center"}}>
                 <div style={{textAlign:'center',margin:'1rem'}}>
                     <span style={{fontSize:'.55rem'}}><FaJs color="yellow" size={45}/><p>Javascript</p></span>
                     <span style={{fontSize:'.55rem'}}><FaReact color="cyan" size={45}/><p>React/RNative</p></span>

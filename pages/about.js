@@ -24,11 +24,11 @@ function About() {
                  <br/>
                  <h3 style={{textAlign:'center'}}>My Strengths.</h3>
                  {/* <div style={{width:}}> */}
+                    <span style={{padding:'1rem',marginBottom:'.5rem',width:'250px',alignSelf:'center',textAlign:'center',border:'.5px solid lightgrey'}}>Backend Dev</span>
                     <span style={{padding:'1rem',marginBottom:'.5rem',width:'250px',alignSelf:'center',textAlign:'center',border:'.5px solid lightgrey'}}>Web Development</span>
                     <span style={{padding:'1rem',marginBottom:'.5rem',width:'250px',alignSelf:'center',textAlign:'center',border:'.5px solid lightgrey'}}><FaAndroid color="#3ddc84"/> Android App Development</span>
-                    <span style={{padding:'1rem',marginBottom:'.5rem',width:'250px',alignSelf:'center',textAlign:'center',border:'.5px solid lightgrey'}}>Backend Dev</span>
                     <span style={{padding:'1rem',marginBottom:'.5rem',width:'250px',alignSelf:'center',textAlign:'center',border:'.5px solid lightgrey'}}>UI/UX Design</span>
-                    <span style={{padding:'1rem',marginBottom:'.5rem',width:'250px',alignSelf:'center',textAlign:'center',border:'.5px solid lightgrey'}}>Responsive Design</span>
+                    {/* <span style={{padding:'1rem',marginBottom:'.5rem',width:'250px',alignSelf:'center',textAlign:'center',border:'.5px solid lightgrey'}}>Responsive Design</span> */}
                     <span style={{padding:'1rem',marginBottom:'.5rem',width:'250px',alignSelf:'center',textAlign:'center',border:'.5px solid lightgrey'}}>Search Engine Optimization</span>
                     <span style={{padding:'1rem',marginBottom:'.5rem',width:'250px',alignSelf:'center',textAlign:'center',border:'.5px solid lightgrey'}}>Database Management</span>
                 {/* </div> */}
