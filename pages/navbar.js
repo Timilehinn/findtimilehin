@@ -57,14 +57,14 @@ export default class Navbar extends React.Component{
         return (
             <>
             <div style={{position:'fixed',zIndex:'100',top:'0'}}>
-                <div style={{width:'100vw',display:'flex',alignItems:'center',height:'60px',backgroundColor:'#fcfcff',borderBottom:'.5px solid lightgrey'}}>
+                <div style={{width:'100vw',display:'flex',alignItems:'center',height:'60px',backgroundColor:'rgb(14, 13, 13)'}}>
                     <Link href="/">
-                      <p style={{cursor:'pointer',marginLeft:'3vw',fontSize:'1.7rem', fontFamily: 'Pacifico'}}>findtimilehin</p>
+                      <p style={{cursor:'pointer',marginLeft:'3vw',color:'white',fontSize:'1.7rem', fontFamily: 'Pacifico'}}>findtimilehin</p>
                     </Link>
                     {/* TOGGLER */}
                     <div onClick={this.toggle} style={{position:'absolute',right:'3vw'}}>
-                        <div style={{width:'30px',height:'2px',marginBottom:'10px',backgroundColor:'black',transition:'.6s',transform:`translateY(${this.state.bar1Y}px) rotate(${this.state.bar1Rot}deg)`}}></div>
-                        <div style={{width:'30px',height:'2px',backgroundColor:'black',transition:'.6s',transform:`translateY(${this.state.bar2Y}px) rotate(${this.state.bar2Rot}deg)`}}></div>
+                        <div style={{width:'30px',height:'1px',marginBottom:'10px',backgroundColor:'white',transition:'.6s',transform:`translateY(${this.state.bar1Y}px) rotate(${this.state.bar1Rot}deg)`}}></div>
+                        <div style={{width:'30px',height:'1px',backgroundColor:'white',transition:'.6s',transform:`translateY(${this.state.bar2Y}px) rotate(${this.state.bar2Rot}deg)`}}></div>
                     </div>
                     
                 </div>

@@ -4,7 +4,6 @@ import Navbar from './navbar'
 import Link from 'next/link'
 
 export default function Home() {
-  const _yg = "{ I'm your guy. }"
   return (
     <div>
      <Head>
@@ -14,7 +13,7 @@ export default function Home() {
       <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"/>
      </Head>
       <Navbar />
-      <div style={{marginTop:'130px',display:'flex',flexDirection:'column', alignItems:'center'}}>
+      <div style={{marginTop:'130px',color:'white',display:'flex',flexDirection:'column', alignItems:'center'}}>
         <h1 style={{fontWeight:'bolder',lineHeight:'60px',textAlign:'center',fontSize:'2rem'}}>Hi,<br/> I'm Timilehin <br/>a Fullstack Web and App Developer</h1>
         <Link href="/about">
             <a style={{border:'3px solid grey',marginTop:'2rem',padding:'1rem'}}>Navigate to know more.</a>
