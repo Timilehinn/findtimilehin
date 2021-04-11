@@ -11,7 +11,8 @@ import {
     FaDatabase,
     FaAtom,
     FaPy,
-    FaPython
+    FaPython,
+    FaJava
  } from 'react-icons/fa'
  import Head from 'next/head'
 
@@ -41,7 +42,7 @@ function Skills() {
                     <span style={{fontSize:'.55rem'}}><FaAtom color="blue" size={45}/><p>ElectronJS</p></span>
                     <span style={{fontSize:'.55rem'}}><FaLinux size={45}/><p>Linux</p></span>
                     <span style={{fontSize:'.55rem'}}><FaGitSquare color="#f34f29" size={45}/><p>Git</p></span>
-                    <span style={{fontSize:'.55rem'}}><FaPython color="#4b8bbe" size={45}/><p>Python</p></span>
+                    <span style={{fontSize:'.55rem'}}><FaJava color="#4b8bbe" size={45}/><p>Java</p></span>
                 </div>
             </div>
         </div>

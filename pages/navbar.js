@@ -23,8 +23,8 @@ export default class Navbar extends React.Component{
             this.setState({
                 bar1Y:6,
                 bar2Y:-6,
-                bar1Rot:405,
-                bar2Rot:-405,
+                bar1Rot:135,
+                bar2Rot:-135,
                 navHeight:'100vh',
                 li1:1,
                 li2:1,
@@ -63,13 +63,13 @@ export default class Navbar extends React.Component{
                     </Link>
                     {/* TOGGLER */}
                     <div onClick={this.toggle} style={{position:'absolute',right:'3vw'}}>
-                        <div style={{width:'30px',height:'1px',marginBottom:'10px',backgroundColor:'white',transition:'.6s',transform:`translateY(${this.state.bar1Y}px) rotate(${this.state.bar1Rot}deg)`}}></div>
-                        <div style={{width:'30px',height:'1px',backgroundColor:'white',transition:'.6s',transform:`translateY(${this.state.bar2Y}px) rotate(${this.state.bar2Rot}deg)`}}></div>
+                        <div style={{width:'30px',height:'1px',marginBottom:'10px',backgroundColor:'white',transition:'.5s',transform:`translateY(${this.state.bar1Y}px) rotate(${this.state.bar1Rot}deg)`}}></div>
+                        <div style={{width:'30px',height:'1px',backgroundColor:'white',transition:'.5s',transform:`translateY(${this.state.bar2Y}px) rotate(${this.state.bar2Rot}deg)`}}></div>
                     </div>
                     
                 </div>
             </div>
-            <ul style={{width:'100vw',position:'fixed',top:'40px',transition:'.6s',height:this.state.navHeight,backgroundColor:'lightgrey'}}>
+            <ul style={{width:'100vw',position:'fixed',top:'40px',height:this.state.navHeight,backgroundColor:'lightgrey'}}>
                 <br />
                 <br />
                 <br />
