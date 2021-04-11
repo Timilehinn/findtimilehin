@@ -28,7 +28,7 @@ function Projects() {
                 <div>
                     <h2 style={{color:'white'}}>Naijchat Mobile</h2>
                     <p>React-native,NodeJs,Socketio and Postgresql</p>
-                    <p>Android version of Naijchat built.</p>
+                    <p>Android version of Naijchat.</p>
                     <p><a style={{fontWeight:'lighter',textDecoration:'underline',grey:'blue'}} href="https://www.github.com/Timilehinn/naijchat-android">Repo</a></p>
                 </div>
                 <div>
