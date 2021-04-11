@@ -16,7 +16,7 @@ function Projects() {
                 <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"/>
             </Head>
             <Navbar />
-            <h1 style={{textAlign:'center',color:'white',marginTop:'100px'}}>Some of my Work.</h1>
+            <h3 style={{textAlign:'center',color:'white',marginTop:'100px'}}>Some of my Work.</h3>
             <br />
             <div className={style.img_div}>
                 <div>
