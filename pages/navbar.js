@@ -62,7 +62,7 @@ export default class Navbar extends React.Component{
                       <p style={{cursor:'pointer',marginLeft:'3vw',color:'white',fontSize:'1.7rem', fontFamily: 'Pacifico'}}>findtimilehin.</p>
                     </Link>
                     {/* TOGGLER */}
-                    <div onClick={this.toggle} style={{position:'absolute',right:'3vw'}}>
+                    <div onClick={this.toggle} style={{cursor:'pointer',position:'absolute',right:'3vw'}}>
                         <div style={{width:'30px',height:'1px',marginBottom:'10px',backgroundColor:'white',transition:'.5s',transform:`translateY(${this.state.bar1Y}px) rotate(${this.state.bar1Rot}deg)`}}></div>
                         <div style={{width:'30px',height:'1px',backgroundColor:'white',transition:'.5s',transform:`translateY(${this.state.bar2Y}px) rotate(${this.state.bar2Rot}deg)`}}></div>
                     </div>
