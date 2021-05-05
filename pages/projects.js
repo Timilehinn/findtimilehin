@@ -46,7 +46,6 @@ function Projects() {
                     name="Naijchat Mobile"
                     technologies="React-native,NodeJs,Socketio and Postgresql"
                     about="Android version of Naijchat."
-                    site_url="https://naij.netlify.app/api/download-the-app"
                     repo_url="https://www.github.com/Timilehinn/naijchat-android"
                 />
                 <ProjectsBox
